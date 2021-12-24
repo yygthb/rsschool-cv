@@ -6,7 +6,7 @@ Currently I'm a frontend developer in a small software company. Seeking for new 
 
 ---
 ###  Contacts:
-*  E-mail: yura.ya.dev@gmail.com
+*  E-mail: [yura.ya.dev@gmail.com](mailto:yura.ya.dev@gmail.com)
 *  Telegram: [@yy_tlgrm](https://t.me/yy_tlgrm)
 *  GitHub: [@yygthb](https://github.com/yygthb)
 
@@ -35,7 +35,7 @@ as one of the engineers in a company, my role included:
 
 ---
 ###  Code examples:
-Write a function that when given a URL as a string, parses out just the domain name and returns it as a string [Codewars](https://www.codewars.com/kata/514a024011ea4fb54200004b)
+Write a function that when given a URL as a string, parses out just the domain name and returns it as a string ([Codewars](https://www.codewars.com/kata/514a024011ea4fb54200004b))
 ```
 function getDomainName(url) {
   const str = url.replace(/http(s?):\/\//, '').split(".");
