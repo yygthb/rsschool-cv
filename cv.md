@@ -35,7 +35,14 @@ as one of the engineers in a company, my role included:
 
 ---
 ###  Code examples:
+Write a function that when given a URL as a string, parses out just the domain name and returns it as a string [Codewars](https://www.codewars.com/kata/514a024011ea4fb54200004b)
+```
+function getDomainName(url) {
+  const str = url.replace(/http(s?):\/\//, '').split(".");
 
+  return str[0] === 'www' ? str[1] : str[0];
+}
+```
 
 ---
 ###  Languages:
