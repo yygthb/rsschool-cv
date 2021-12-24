@@ -1,21 +1,42 @@
-## Yura Yastrebov
+##  Yura Yastrebov  
+
+I started my career as a digital design engineer. Over 7 years of experience working on the development of firmware for the digital circuits and control system for the digital led screens. As a hobby i designed a corporate web-application using wordpress and became fascinated by frontend after all.
+
+Currently I'm a frontend developer in a small software company. Seeking for new opportunities and challenges that will expand my skills and continue to develop my competencies further.
 
 ---
-
-### Contacts:
-
----
-
-### Skills:
+###  Contacts:
+*  E-mail: yura.ya.dev@gmail.com
+*  Telegram: [@yy_tlgrm](https://t.me/yy_tlgrm)
+*  GitHub: [@yygthb](https://github.com/yygthb)
 
 ---
-
-### Experience:
+###  Skills:
+*  HTML5, CSS, JS(ES6)
+*  Figma
+*  GIT
+*  GULP, Webpack
+*  React, Redux, Next JS
+*  Node.js (Express), MongoDB
 
 ---
+###  Experience:
 
-### Code examples:
+*  **Omega-soft** (2021.01 - 2021.11)
+as one of the engineers in a company, my role included:
+
+   +  developing landings on Figma designs using NextJS, ReactJS [example](https://omega-r.com/)
+   +  developing the web application with chat and video calling using [QuickBlox SDK](https://github.com/QuickBlox/quickblox-javascript-sdk)
+   +  developing UI-components for mobile Android/IOS application using React Native
+
+*  **Арб-Медиа** (2021.11 - current)
+   +  improving the websites load performance
+   +  developing the corporate admin web application
 
 ---
+###  Code examples:
 
-### Languages:
+
+---
+###  Languages:
+* English - B1
