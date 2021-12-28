@@ -1,4 +1,64 @@
+:root {
+  --color-main: #888;
+  --color-dark: #242424;
+  --color-white: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.title {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* HEADER */
+.header {
+  color: var(--color-white);
+  background-color: var(--color-dark);
+}
+.header-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.profile-name {
+  font-size: 48px;
+  line-height: 80px;
+}
+.profile-job {
+  text-align: end;
+  font-size: 20px;
+}
+.header-avatar {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* /HEADER */
+
+/* MAIN */
+/* /MAIN */
+
+/* FOOTER */
+/* /FOOTER */
