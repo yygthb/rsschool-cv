@@ -280,6 +280,15 @@ li {
   .section-aside {
     width: 100%;
   }
+  #experience {
+    order: 1;
+  }
+  #code {
+    order: 2;
+  }
+  #languages {
+    order: 10;
+  }
 }
 
 @media (max-width: 500px) {
