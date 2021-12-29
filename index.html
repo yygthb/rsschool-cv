@@ -30,12 +30,39 @@
             src="./assets/img/avatar.jpg"
             alt="profile avatar"
           />
+          <div class="burger-button">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+          <nav class="header-nav">
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code Examples</a>
+              </li>
+              <li class="nav-item">
+                <a href="#languages" class="nav-link">Languages</a>
+              </li>
+            </ul>
+          </nav>
         </section>
       </div>
     </header>
     <main class="main">
       <div class="container main-content">
-        <section class="section section-main">
+        <section class="section section-main" id="about">
           <h4 class="section-title">About me:</h4>
           <p>
             I started my career as a digital design engineer. Over 7 years of
@@ -50,7 +77,7 @@
             skills and continue to develop my competencies further.
           </p>
         </section>
-        <section class="section section-aside">
+        <section class="section section-aside" id="contacts">
           <h4 class="section-title">Contacts:</h4>
           <ul class="section-list">
             <li class="section-item">
@@ -94,7 +121,7 @@
             </li>
           </ul>
         </section>
-        <section class="section section-main">
+        <section class="section section-main" id="experience">
           <h4 class="section-title">experience:</h4>
           <p>
             <span class="carrier-title">Omega-soft</span>
@@ -144,7 +171,7 @@
             </li>
           </ul>
         </section>
-        <section class="section section-aside">
+        <section class="section section-aside" id="skills">
           <h4 class="section-title">skills:</h4>
           <ul class="section-list">
             <li class="section-item">HTML5, CSS, JS(ES6)</li>
@@ -155,7 +182,7 @@
             <li class="section-item">Node.js (Express), MongoDB</li>
           </ul>
         </section>
-        <section class="section section-main">
+        <section class="section section-main" id="code">
           <h4 class="section-title">Code examples:</h4>
           <span class="code-desc"
             >Write a function that when given a URL as a string, parses out just
@@ -175,7 +202,7 @@ function getDomainName(url) {
 }</code>
           </pre>
         </section>
-        <section class="section section-aside">
+        <section class="section section-aside" id="languages">
           <h4 class="section-title">languages:</h4>
           <ul class="section-list">
             <li class="section-item">English - B1</li>
@@ -200,5 +227,7 @@ function getDomainName(url) {
         </div>
       </div>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
