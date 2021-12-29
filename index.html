@@ -168,7 +168,8 @@
           <pre class="code-snippet">
             <code>
 function getDomainName(url) {
-  const str = url.replace(/http(s?):\/\//, '').split(".");
+  const str = url.replace(/http(s?):\/\//, '')
+                 .split(".");
 
   return str[0] === 'www' ? str[1] : str[0];
 }</code>

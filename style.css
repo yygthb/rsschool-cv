@@ -72,7 +72,6 @@ li {
   line-height: 80px;
 }
 .profile-job {
-  text-align: end;
   font-size: 20px;
 }
 .header-avatar {
@@ -122,6 +121,7 @@ li {
   padding-bottom: 2px;
 }
 .carrier-title {
+  margin-top: 5px;
   font-weight: 700;
 }
 .carrier-info {
@@ -159,3 +159,122 @@ li {
   width: 70px;
 }
 /* /FOOTER */
+
+/* MEDIA */
+@media (max-width: 950px) {
+  body {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  p,
+  li {
+    margin-top: 5px;
+  }
+  .profile-name {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  .profile-job {
+    font-size: 18px;
+  }
+  .header-avatar {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .main-content {
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  .section-title {
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+  .section-main {
+    width: calc(100% - 250px - 30px);
+  }
+  .section-aside {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .header-avatar {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .main-content {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .section {
+    background-color: transparent;
+  }
+  .section-main {
+    width: 100%;
+  }
+  .section-aside {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 15px;
+  }
+  .header-profile {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .profile-info {
+    margin-bottom: 40px;
+  }
+  .profile-name {
+    font-size: 36px;
+  }
+  .profile-job {
+    text-align: center;
+  }
+  .header-avatar {
+    max-width: 180px;
+    max-height: 180px;
+  }
+  .code-snippet {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    padding: 0 15px;
+  }
+  .profile-info {
+    margin-bottom: 30px;
+  }
+  .profile-name {
+    font-size: 28px;
+    line-height: 46px;
+  }
+  .profile-job {
+    font-size: 16px;
+  }
+  .header-avatar {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .code-snippet {
+    width: calc(100% + 15px);
+    padding: 0;
+    padding-left: 15px;
+    margin: 0 -15px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+/* /MEDIA */
