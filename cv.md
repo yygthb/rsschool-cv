@@ -22,16 +22,14 @@ Currently I'm a frontend developer in a small software company. Seeking for new 
 ---
 ###  Experience:
 
-*  **Omega-soft** (2021.01 - 2021.11)
-as one of the engineers in a company, my role included:
-
-   +  developing landings on Figma designs using NextJS, ReactJS [example](https://omega-r.com/)
-   +  developing the web application with chat and video calling using [QuickBlox SDK](https://github.com/QuickBlox/quickblox-javascript-sdk)
-   +  developing UI-components for mobile Android/IOS application using React Native
-
 *  **Арб-Медиа** (2021.11 - current)
    +  improving the websites load performance
    +  developing the corporate admin web application
+
+*  **rs-school** frontend Stage0
+   +  responsive [landing page](https://rolling-scopes-school.github.io/yygthb-JSFEPRESCHOOL/portfolio/) with custom video player
+   + [memory game](https://rolling-scopes-school.github.io/yygthb-JSFEPRESCHOOL/memory-game/) with a choice of difficulty levels and saving best result in localStorage
+   + [movie app](https://rolling-scopes-school.github.io/yygthb-JSFEPRESCHOOL/movie-app/) - movies application with search-field (used themoviedb API)
 
 ---
 ###  Code examples:
